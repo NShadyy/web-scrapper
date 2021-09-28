@@ -1,0 +1,50 @@
+# Static Files
+news.json
+
+#Config Files
+/config/*
+!config/default.json
+!config/index.ts
+!config/app-config.interface.ts
+
+# Compiled Output
+/dist
+/node_modules
+/public/*
+!public/favicon.ico
+!public/index.html
+
+# Sonar Scanner
+.scannerwork
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/coverage-e2e
+/.nyc_output
+
+# IDEs and Editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
